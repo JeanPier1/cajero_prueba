@@ -1,8 +1,6 @@
 ---
 ---
-
 ## Postman
-
 ---
 
 index = 0 o 1
@@ -55,4 +53,13 @@ Result:
 
 (http://127.0.0.1:5000/retiro/<int:cantidad>/<int:index>) methods=['PUT']
 http://127.0.0.1:5000/retiro/100/1
+
 # cajero_prueba
+
+{
+"cantidad": 900,
+"cuenta": "123-456-678-123",
+"nombre": "Jean Pierre",
+"retiros": 1,
+"transferencias": 0
+}
